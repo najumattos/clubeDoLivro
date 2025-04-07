@@ -8,4 +8,5 @@ O uso do rel=”noopener noreferrer” é especialmente importante para links qu
 
     box-sizing: border-box;
 
- deixar o header fixo + botao de subir pagina
+
+ e deixar o header fixo + botao de subir (ok)
