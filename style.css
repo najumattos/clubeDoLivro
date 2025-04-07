@@ -1,21 +1,44 @@
-:root{
-    --background-menu:#345744;
-    --color-menu:#e4bc7f;
-}
-button{
-    border: none;
-}
-body, header, .navBar, html {
-    margin: 0px;
+:root {
+    --background-menu: #345744;
+    --color-menu: #e4bc7f;
 }
 
-a{
+button {
+    border: none;
+}
+
+body {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    position: relative;
+    margin:150px 150px 0px 150px;
+}
+
+a {
     text-decoration: none;
 }
 
-.navBar, footer {
+header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    margin-top: 0px;
+    float: left;
+}
+
+.conteudo{
+    position: relative;
+
+}
+.navBar,
+footer {
+    margin: 0px;
     color: var(--color-menu);
-    background-color:var(--background-menu);
+    background-color: var(--background-menu);
     font-size: 30px;
     display: flex;
     flex-direction: row;
@@ -23,25 +46,28 @@ a{
     align-items: center;
     border: 15px solid var(--background-menu);
     box-shadow: 0px 5px 10px rgba(69, 6, 141, 0.329);
-    width: 100%;    
+    width: 100%;
     box-sizing: border-box;
 }
 
-footer{
-    position: fixed;
+footer {
     bottom: 0;
-    a{
+
+    a {
         color: var(--color-menu);
     }
-    p{
+
+    p {
         margin: 0px;
     }
-    img{
-        width:30px;
+
+    img {
+        width: 30px;
         height: 30px;
     }
 }
-.rodape{
+
+.rodape {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -50,22 +76,27 @@ footer{
 }
 
 
-.lindekin{
+.lindekin {
     margin: 15px;
     display: flex;
     flex-direction: row;
 
-    img{
+    img {
         margin-inline: 5px;
     }
 }
+
 .logoNome {
     width: 200px;
 }
 
-#dropdown-menu,#dropdown-btn {
+#dropdown-menu,
+#dropdown-btn {
     display: none;
-    a{display: none;}
+
+    a {
+        display: none;
+    }
 }
 
 #menuDesktop {
@@ -86,22 +117,39 @@ footer{
     }
 }
 
+.botao-subir {
+    width: 50px;
+    height: 50px;
+    background-color: var(--background-menu);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    text-decoration: none;
+    right: 25px;
+    border-radius: 15px;
+    bottom: 50px;
+    z-index: 999;
+}
+
 @media (max-width:930px) {
     #menuDesktop {
         display: none;
     }
-    main{
+
+    main {
         position: relative;
         margin: 50px;
     }
-#dropdown-btn{
-    background-color: var(--background-menu);
-    display: block;
-}
+
+    #dropdown-btn {
+        background-color: var(--background-menu);
+        display: block;
+    }
 
     #dropdown-menu {
         background-color: var(--background-menu);
-        display: none;             
+        display: none;
         margin: 2px;
         border-radius: 5px;
 
@@ -118,10 +166,16 @@ footer{
         }
 
     }
+
     .logoNome {
         width: 120px;
     }
-    footer{
+
+    footer {
         font-size: 20px;
+    }
+
+    .botao-subir {
+        display: none;
     }
 }
