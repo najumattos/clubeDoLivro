@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+    --background-menu: #345744;
+    --color-menu: #e4bc7f;
+}
+        a {
+    text-decoration: none;
+}
+        button {
+    border: none;
+}
+header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    margin-top: 0px;
+}
+        .logoNome {
+            width: 200px;
+        }
+        .navBar {
+            margin: 0px;
+            color: var(--color-menu);
+            background-color: var(--background-menu);
+            font-size: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            border: 15px solid var(--background-menu);
+            box-shadow: 0px 5px 10px rgba(69, 6, 141, 0.329);
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #menuDesktop {
+            display: flex;
+            flex-direction: row;
+
+            a {
+                text-decoration: none;
+                padding: 10px;
+                border: 2px solid var(--background-menu);
+                display: inline-block;
+                color: var(--color-menu);
+            }
+
+            a:hover {
+                border: 2px solid var(--color-menu);
+                border-radius: 10px;
+            }
+        }
+        #dropdown-btn {
+            background-color: var(--background-menu);
+            display: none;
+        }
+        #dropdown-menu {
+            background-color: var(--background-menu);
+            display: none;
+            margin: 2px;
+            border-radius: 5px;
+
+            a {
+                font-size: 25px;
+                text-decoration: none;
+                padding: 3px;
+                margin-inline: 10px;
+                color: var(--color-menu);
+                border: 2px solid var(--background-menu);
+                display: inline-block;
+                border-radius: 5px;
+                color: var(--color-menu);
+            }
+
+        }
+        @media (max-width:930px) {
+    #menuDesktop {
+        display: none;
+    }
+
+    #dropdown-btn {
+        display: block;
+    }
+
+    #dropdown-menu {
+        display: none;
+        flex-direction: column;
+    }
+
+    .logoNome {
+        width: 120px;
+    }
+}
+    </style>
+    
+</head>
+
+<body>
+    <header>
+        <nav class="navBar">
+            <a href="#"><img class="logoNome" src="../img/logoNome.png" alt="Clube da Meia Noite"></a>
+            <!--DESKTOP-->
+            <div id="menuDesktop">
+                <a href="../recomendacoes/recomendacoes.html" rel="noopener noreferrer"
+                    alt="Recomendações">Recomendações</a>
+                <a href="../trocas/trocas.html" rel="noopener noreferrer" alt="Trocas">Trocas</a>
+                <a href="../membros/membros.html" rel="noopener noreferrer" alt="Membros">Membros</a>
+                <a href="../encontros/encontros.html" rel="noopener noreferrer" alt="Encontros">Encontros</a>
+                <a href="../sobre/sobre.html" rel="noopener noreferrer" alt="Sobre">Sobre</a>
+            </div>
+
+            <!--MOBILE-->
+            <button onclick="abrirFecharMenu()" id="dropdown-btn"><img src="../img/bars-sort.png" id="bars-sort"
+                    alt="menu"></button>
+        </nav>
+        <div id="dropdown-menu">
+            <a href="../recomendacoes/recomendacoes.html" alt="Recomendações">Recomendações</a>
+            <a href="../trocas/trocas.html" alt="Trocas">Trocas</a>
+            <a href="../membros/membros.html" alt="Membros">Membros</a>
+            <a href="../encontros/encontros.html" alt="Encontros">Encontros</a>
+            <a href="../sobre/sobre.html" alt="Sobre">Sobre</a>
+        </div>
+    </header>
+    <script src="../assets/js/include.js"></script>
+</body>
+
+</html>

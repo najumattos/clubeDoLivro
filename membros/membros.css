@@ -1,0 +1,25 @@
+:root {
+    --background-menu: #345744;
+    --color-menu: #e4bc7f;
+}
+body {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    position: relative;
+    margin:150px 150px 0px 150px;
+}
+a {
+    text-decoration: none;
+}
+.conteudo{
+    position: relative;
+}
+@media (max-width:930px) {
+    main {
+        position: relative;
+        margin: 50px;
+    }
+}
