@@ -10,52 +10,15 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navBar">
-            <a href="#"><img class="logoNome" src="img/logoNome.png" alt="Clube da Meia Noite"></a>
-            <!--DESKTOP-->
-            <div id="menuDesktop">
-                <a href="recomendacoes/recomendacoes.html" rel="noopener noreferrer"
-                    alt="Recomendações">Recomendações</a>
-                <a href="trocas/trocas.html" rel="noopener noreferrer" alt="Trocas">Trocas</a>
-                <a href="membros/membros.html" rel="noopener noreferrer" alt="Membros">Membros</a>
-                <a href="encontros/encontros.html" rel="noopener noreferrer" alt="Encontros">Encontros</a>
-                <a href="sobre/sobre.html" rel="noopener noreferrer" alt="Sobre">Sobre</a>
-            </div>
+    <div data-include="componentes/header.html"></div>
+  <main class="conteudo">
 
-            <!--MOBILE-->
-            <button onclick="abrirFecharMenu()" id="dropdown-btn"><img src="img/bars-sort.png" id="bars-sort"
-                    alt="menu"></button>
-        </nav>
-        <div id="dropdown-menu">
-            <a href="recomendacoes/recomendacoes.html" alt="Recomendações">Recomendações</a>
-            <a href="trocas/trocas.html" alt="Trocas">Trocas</a>
-            <a href="membros/membros.html" alt="Membros">Membros</a>
-            <a href="encontros/encontros.html" alt="Encontros">Encontros</a>
-            <a href="sobre/sobre.html" alt="Sobre">Sobre</a>
-        </div>
-    </header>
-    <main class="conteudo">
-        <div class="botao-subir">
-            <a href="#" id="iconUpPage"><img src="img\iconUpPage.png"></img></a>
-        </div>
-    </main>
-    <footer style="flex-direction: column;">
-        <a href="https://github.com/tainara-vitsantos">Projeto Interdisciplinar "Clube do Livro:Clube da Meia Noite"</a>
-        <div class="rodape">
-            <div class="lindekin">
-                <img src="img/linkedin.png" alt="Linkedin Tainara">
-                <a href="http://linkedin.com/in/tainara-santos-946931358" target="_blank" rel="noopener noreferrer"
-                    alt="Linkedin Tainara">Tainara Vitoria dos Santos</a>
-            </div>
-            <div class="lindekin">
-                <img src="img/linkedin.png" alt="Linkedin Ana Julia">
-                <a href="https://www.linkedin.com/in/anajuliamattos/" target="_blank" rel="noopener noreferrer">Ana
-                    Julia Reis de Mattos</a>
-            </div>
-        </div>
-    </footer>
-    <script src="home.js"></script>
+    <div data-include="componentes/up-page-btn.html"></div>
+  </main>
+ <!-- <div data-include="componentes/footer.html"></div>--> 
+   
+    <script src="assets/js/include.js"></script>
+    <script src="componentes/dropdownMenu.js" ></script>
 </body>
 
 </html>
