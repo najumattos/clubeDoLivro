@@ -2,42 +2,54 @@
     --background-menu: #345744;
     --color-menu: #e4bc7f;
 }
-body {
+
+body, html {
     margin: 0%;
     display: flex;
     flex-direction: column;
     font-size: 30px;
 }
-main{
+
+main {
     position: relative;
-    margin:150px 150px 0px 150px;
-}
-a,p {
-    text-decoration: none;
-    margin: 0px;
-}
-.conteudo{
-    position: relative;
-   margin-top: 200px;
-   margin-bottom: 50px;
+    margin: 150px 150px 0px 150px;
 }
 
-.membro{
+a,
+p {
+    text-decoration: none;
+    margin: 0px;
+    color: black;
+}
+
+.conteudo {
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+#membro {
     border: 3px solid var(--background-menu);
-    width: 100%;
     border-radius: 15px;
     display: flex;
+    align-items: center;
+    margin-bottom: 80px;
 }
-.dadosPessoais{
+
+.dadosPessoais {
     display: flex;
-    
+
 }
-.dadosoMembro{
+
+.dadosoMembro {
     margin: 20px;
 }
-.fotoMembro{
-    min-width: 200px;
-    min-height: 200px;
+
+.fotoMembro {
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 200px;
+    max-height: 200px;
     border: 3px solid var(--background-menu);
     border-radius: 100%;
     margin: 20px;
@@ -46,6 +58,12 @@ a,p {
 @media (max-width:930px) {
     main {
         position: relative;
-        margin: 50px;
+        margin: 0px;
+    }
+
+    #membro {
+        max-width: 300px;
+        margin-inline: 30px;
+
     }
 }

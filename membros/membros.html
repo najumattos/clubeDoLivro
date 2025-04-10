@@ -12,15 +12,17 @@
 <body>
   <div data-include="../componentes/header.html"></div>
   <main class="conteudo">
-    <article class="membro">
+    <div id="containerMembros"></div>
+
+    <article id="membro" style="display: none;">
       <div class="fotoMembro"></div>
       <div class="dadosoMembro">
         <div class="dadosPessoais">          
-          <p class="nomeMembro">Tais</p>
-          <p class="redeSocialMembro">@tais_marculino</p>
+          <p class="nomeMembro"></p>
+          <p class="redeSocialMembro"><a href="http://" target="_blank" rel="noopener noreferrer"></a></p>
         </div>
-        <p class="recomendacaoMembro">Livro recomendado: O amor não é óbvio - <i>Elayne Baeta</i></p>
-        <p class="descricaoMembro"> "Eu gosto de ler livros, e a grande maioria deles fala sobre o amor de uma mulher por outra. Quando eu era mais nova, não gostava muito de ler romances, mas mais tarde descobri o motivo: eu não me identificava com esses romances. No entanto, não leio somente romances sáficos. Também gosto de livros de ficção científica, fantasia, terror e aventura. Os livros que leio, na grande maioria, às vezes me tiram da realidade. Eu gosto disso, pois consigo viajar para vários lugares, tempos e espaços sem sair de casa. Isso é fascinante!"</p>
+        <p class="recomendacaoMembro"></p>
+        <p class="descricaoMembro"></p>
       </div>
 
     </article>
@@ -28,6 +30,7 @@
   </main>
   <div data-include="../componentes/footer.html"></div>
   <script src="../assets/js/include.js"></script>
+  <script src="membros.js"></script>
 </body>
 
 </html>
