@@ -14,8 +14,10 @@
             text-decoration: none;
         }
 
-        footer {
-            margin: 0px;
+        footer {  background-color: var(--background-menu);
+            border: 8px solid var(--background-menu);
+            box-shadow: 0px 2px 5px var(--background-menu-gradiente);
+            box-sizing: border-box;           
             color: var(--color-menu);
             background-color: var(--background-menu);
             font-size: 20px;
@@ -44,11 +46,12 @@
         }
 
         .rodape {
-            width: 100%;
+            width: 90%;
+            max-width: 1200px;
+            margin: 0px;            
             display: flex;
             flex-direction: row;
-            justify-content: space-evenly;
-            align-items: center;
+            justify-content: space-between;            
         }
 
         .lindekin {
