@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="shortcut icon" href="../img/logos/logoIMG-removeBG.png" type="image/x-icon">
+  <link rel="stylesheet" href="membros.css">
+  <link rel="stylesheet" href="../style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membros</title>
+</head>
+
+<body>
+  <div data-include="../componentes/header.html"></div>
+  <main id="wrapper">
+    <h1>Conheça um pouco sobre cada integrante do Clube</h1>
+    <p class="introducao">Inicialmente eramos em 5 e hoje já somos em (CONT), cada leitor tem uma relação única com a leitura, abaixo conheça algumas dessas histórias de amor</p>
+    <div id="containerMembros"></div>
+
+    <article id="membro" style="display: none;">
+      <div class="fotoMembro"></div>
+      <div class="dadosoMembro">
+        <div class="dadosPessoais">          
+          <p class="nomeMembro"></p>
+          <p class="redeSocialMembro"><a href="" target="_blank" rel="noopener noreferrer"></a></p>
+        </div>
+        <div class="recomendacao">
+        <p class="recomendacaoMembro"></p>
+        <p class="texto"> de </p>
+        <i class="autor"></i>
+      </div>
+        <p class="descricaoMembro"></p>
+      </div>
+    </article>
+    <div data-include="../componentes/up-page-btn.html"></div>
+  </main>
+  <div data-include="../componentes/footer.html"></div>
+  <script src="../assets/js/include.js"></script>
+  <script src="membros.js"></script>
+</body>
+
+</html>

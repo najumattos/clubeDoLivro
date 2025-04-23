@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --background-menu: #345744;
+            --color-menu: #e4bc7f;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        footer {
+            margin: 0px;
+            color: var(--color-menu);
+            background-color: var(--background-menu);
+            font-size: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            border: 5px solid var(--background-menu);
+            box-shadow: 0px 5px 10px rgba(69, 6, 141, 0.329);
+            width: 100%;
+            box-sizing: border-box;
+            bottom: 0;
+
+            a {
+                color: var(--color-menu);
+            }
+
+            p {
+                margin: 0px;
+            }
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        .rodape {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .lindekin {
+            margin: 5px;
+            display: flex;
+            flex-direction: row;
+
+            img {
+                margin-inline: 5px;
+            }
+        }
+
+        @media(max-width:930px) {
+            footer {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <footer style="flex-direction: column;">
+        <a href="https://github.com/tainara-vitsantos">Projeto Interdisciplinar "Clube do Livro:Clube da Meia Noite"</a>
+        <div class="rodape">
+            <div class="lindekin">
+                <img src="../img/linkedin.png" alt="Linkedin Tainara">
+                <a href="http://linkedin.com/in/tainara-santos-946931358" target="_blank" rel="noopener noreferrer"
+                    alt="Linkedin Tainara">Tainara Vitoria dos Santos</a>
+            </div>
+            <div class="lindekin">
+                <img src="../img/linkedin.png" alt="Linkedin Ana Julia">
+                <a href="https://www.linkedin.com/in/anajuliamattos/" target="_blank" rel="noopener noreferrer">Ana
+                    Julia Reis de Mattos</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
