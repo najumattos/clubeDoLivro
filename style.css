@@ -1,6 +1,39 @@
 :root {
     --background-menu: #345744;
     --color-menu: #e4bc7f;
+<<<<<<< HEAD
+    --background-menu-gradiente:#49775e;
+}
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    background-color: #ebebeb;
+}
+
+p, a{
+    color: black;
+}
+
+#wrapper{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+=======
 }
 body {
     margin: 0%;
@@ -23,3 +56,4 @@ a {
         margin: 50px;
     }
 }
+>>>>>>> 710177b78aea91b639bdd0f5ffc6b71aa34b4228
