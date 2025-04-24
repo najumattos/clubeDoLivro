@@ -12,3 +12,6 @@ O uso do rel=”noopener noreferrer” é especialmente importante para links qu
  e deixar o header fixo + botao de subir (ok)
 
  resolver bug do menu responsivo
+
+ https://app.leonardo.ai/image-generation
+ Seamless pattern of Festa Junina elements on a clear light background. Includes small vector-style drawings of bonfire, accordion, straw hat, corn, balloon, colorful flags (bandeirinhas), sunflower, rustic wooden fence, guitar, cactus, and a singing mouth. Each element no larger than 3cm (~90px). Harmoniously distributed across a 1200x800px canvas. Flat colors with soft drop shadows. Bright, festive and cheerful look.
