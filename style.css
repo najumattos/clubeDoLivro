@@ -46,10 +46,17 @@ p, a{
 }
 
 .convite{
-    max-width: 350px;
+}
+.branco{
+    height: 130px; 
+    width: 50px; 
+}
+.display{
+
 }
 
-.fundoConvite{
+.convite-component{
     background-image: url(img/fundoJunino.jpg);
-    height: 800px;
+    height: 100vh;
+    display: none;
 }

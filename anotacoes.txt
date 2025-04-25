@@ -15,3 +15,9 @@ O uso do rel=”noopener noreferrer” é especialmente importante para links qu
 
  https://app.leonardo.ai/image-generation
  Seamless pattern of Festa Junina elements on a clear light background. Includes small vector-style drawings of bonfire, accordion, straw hat, corn, balloon, colorful flags (bandeirinhas), sunflower, rustic wooden fence, guitar, cactus, and a singing mouth. Each element no larger than 3cm (~90px). Harmoniously distributed across a 1200x800px canvas. Flat colors with soft drop shadows. Bright, festive and cheerful look.
+
+
+--Aparecer convite 5s apos entrar no site;
+--fechar ao clicar no botao ou clicar fora;
+--Trocar mensagem ao clicar no download;
+--Deixar componentes ocultos quando o convite estiver display:block
