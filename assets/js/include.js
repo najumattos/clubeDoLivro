@@ -20,7 +20,7 @@ function includeHTML() {
     const div = document.getElementById("dropdown-menu");
     if (div.style.display === "none" || div.style.display === "") {
         div.style.display = "flex";
-        div.style.flexDirection = "column"
+        div.style.flexDirection = "row"
     } else {
         div.style.display = "none";
     }

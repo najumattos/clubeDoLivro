@@ -2,6 +2,7 @@
     --background-menu: #345744;
     --color-menu: #e4bc7f;
     --background-menu-gradiente:#49775e;
+    --color-membros: #fff
 }
 *{
     border: 0;
@@ -45,18 +46,7 @@ p, a{
     max-height: 450px;
 }
 
-.convite{
-}
 .branco{
     height: 130px; 
     width: 50px; 
-}
-.display{
-
-}
-
-.convite-component{
-    background-image: url(img/fundoJunino.jpg);
-    height: 100vh;
-    display: none;
 }
