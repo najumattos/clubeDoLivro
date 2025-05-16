@@ -159,16 +159,13 @@ const membrosClube = [
 
   /*Recomendações */
     const containerLivros = document.getElementById('containerLivros')
-    const templateLivro = document.getElementById('livro')
+    const templateLivro = document.getElementById('recomendacao')
 
     membrosClube.forEach(membro => {
     const livroClone = templateLivro.cloneNode(true);
     livroClone.style.display = 'flex'
 
-    livroClone.querySelector('.recomendacao').textContent = membro.recomendacao
-    const link = livroClone.querySelector('.redeSocialMembro a')
-    link.href = membro.linkRedeSocial
-    link.textContent = membro.redeSocial
+    livroClone.querySelector('.recomendacaoMembro').textContent = membro.recomendacao
     livroClone.querySelector('.recomendacaoMembro').innerHTML = membro.recomendacao
     livroClone.querySelector('.autor').innerHTML = membro.autor
     livroClone.querySelector('.sinopse').textContent = membro.sinopse

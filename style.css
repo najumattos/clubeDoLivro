@@ -2,7 +2,7 @@
     --background-menu: #345744;
     --color-menu: #e4bc7f;
     --background-menu-gradiente:#49775e;
-    --color-membros: #fff
+    --cwhite-color: #f4fff9;;
 }
 *{
     border: 0;
@@ -14,8 +14,9 @@
 html, body{
     width: 100%;
     min-height: 100%;
-    height: auto;
-    background-color: #ebebeb;
+    height: auto;    
+   background: #e0f1e8;
+    /*background: linear-gradient(180deg, rgba(60, 115, 84, 1) 0%, rgba(171, 207, 184, 1) 30%);*/
 }
 
 p, a{
@@ -46,7 +47,3 @@ p, a{
     max-height: 450px;
 }
 
-.branco{
-    height: 130px; 
-    width: 50px; 
-}

@@ -13,19 +13,18 @@
 <body>
     <div data-include="../componentes/header.html"></div>
   <main id="wrapper">
-    <article id="recomedacao" style="display: none;">
-      <div class="fotoLivro"></div>
-      <div class="dadosMembro">
-        <div class="dadosPessoais">          
-          <p class="nomeMembro"></p>
-          <p class="redeSocialMembro"><a style="color: var(--color-membros)" href="" target="_blank" rel="noopener noreferrer"></a></p>
-        </div>
-        <div class="recomendacao">
-        <p class="recomendacaoMembro"></p>
-        <p class="texto"> de </p>
-        <i class="autor"></i>
-      </div>
-        <p class="descricaoMembro"></p>
+
+    <div id="containerLivros"></div>
+    <article id="recomendacao">
+      
+      <div class="capaLivro">
+        <img src="../dados/img/livros/jantarSecreto.webp" alt="">
+      </div>      
+      <div class="textos">
+      <p class="recomendacaoMembro">Jantar Secreto</p>
+        <p class="sinopse">Um grupo de jovens endividados se envolve em um negócio arriscado e perturbador para tentar quitar suas dívidas. A trama tece suspense e questionamentos sobre moralidade e os limites da ambição.</p>
+      <div class="textos">
+        
       </div>
     </article>
 
@@ -33,6 +32,7 @@
   </main>
   <div data-include="../componentes/footer.html"></div>
  <script src="../assets/js/include.js"></script>
+ <script src="../dados/dados.js"></script>
 </body>
 
 </html>
