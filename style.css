@@ -2,7 +2,7 @@
     --background-menu: #345744;
     --color-menu: #e4bc7f;
     --background-menu-gradiente:#49775e;
-    --cwhite-color: #f4fff9;;
+    --white-color: #f4fff9;;
 }
 *{
     border: 0;
@@ -19,10 +19,6 @@ html, body{
     /*background: linear-gradient(180deg, rgba(60, 115, 84, 1) 0%, rgba(171, 207, 184, 1) 30%);*/
 }
 
-p, a{
-    color: black;
-}
-
 #wrapper{
     width: 90%;
     max-width: 1200px;
@@ -32,6 +28,8 @@ p, a{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    color: var(--white-color);
+    font-size: 20px;
 }
 
 .imagem{

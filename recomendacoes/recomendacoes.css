@@ -1,46 +1,47 @@
-#membro p{
-    color: var(--color-membros)
-}
+
 #recomendacao {
     border: 3px solid var(--background-menu-gradiente);
     background: #345744;
-    color: #fff;
     border-radius: 15px;
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+     position: relative;
 }
-
-
-.capaLivro {
-    min-width: 200px;
-    min-height: 200px;
-    max-width: 200px;
-    max-height: 200px;
-    border: 3px solid var(--background-menu-gradiente);
-    border-radius: 100%;
-    margin: 20px;
+.sinopse{
+    margin: 5px;
+}
+/*Lembra de remover o fundo das imagens*/
+.capaLivro img {
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    max-height: 150px;       
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 3px;
 }
 
-.capaLivro img{
-    min-width: 200px;
-    min-height: 200px;
-    max-width: 200px;
-    max-height: 200px;
+.capaLivro{
+    margin: 20px;
+     box-shadow:0.3em 0.3em 1em rgba(2, 37, 8, 0.6);
 }
-
 .textos{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start;    
+}
+
+.recomendacaoMembro{
+    font-size: 25px;
+    color: var(--color-menu);
 }
 
 @media (max-width:930px) {
 
     #recomendacao {
+         box-sizing: border-box;
         border: 3px solid var(--background-menu);
         border-radius: 15px;
         display: flex;
